@@ -2,12 +2,10 @@
 
 using namespace std;
 
-int main(void)
-{
+int main_2(void) {
     char flag;
     cin >> flag;
-    switch(flag)
-    {
+    switch (flag) {
         case 'k' :
             cout << "korea 파이팅!\n";
         case 'm' :
