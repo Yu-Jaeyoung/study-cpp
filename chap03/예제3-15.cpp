@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(void) {
+int main_15(void) {
     int *ptr, var1, var2;
     var1 = 25;
     ptr = &var1;
