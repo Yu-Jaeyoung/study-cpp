@@ -19,5 +19,4 @@ add_executable(chap04_2
         예제4-11.cpp
         예제4-12.cpp
         예제4-13.cpp
-        과졔.cpp
         과제-2.cpp)
