@@ -1,25 +1,41 @@
+/*
 #include <iostream>
 
 using namespace std;
 
-#define NUM 3
-
-class Person {
-    string name;
-    string tel;
+class Circle {
+    int radius;
 public:
-    Person();
+    void setRadius(int radius);
 
-    string getName() { return name; }
+    double getArea();
 
-    string getTel() { return tel; }
-
-    void set(string name, string tel);
 };
+
+void Circle::setRadius(int radius) {
+    this->radius = radius;
+}
+
+double Circle::getArea() {
+    return 3.14 * this->radius * this->radius;
+}
+
 
 int main(void) {
 
-    cout << "이름과 전화번호를 입력해주세요." ;
+    Circle circle[3];
 
+    int radius = 0, count = 0;
+
+    for (int i = 0; i < 3; i++) {
+        cout << "원 " << i + 1 << "의 반지름 >> ";
+        cin >> radius;
+        circle[i].setRadius(radius);
+        if (circle[i].getArea() > 100) {
+            count++;
+        }
+    }
+    cout << "면적이 100보다 큰 원은 " << count << "개 입니다.";
 
 }
+*/
