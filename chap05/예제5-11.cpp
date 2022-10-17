@@ -20,7 +20,7 @@ public:
 Person::Person(int id, char *name) {
     this->id = id;
     int len = strlen(name); //name의 문자 개수
-    this->name = new char[len + 1]; //this->name 문자열 공간 할당
+    this->name = new char[1];//[len + 1]; //this->name 문자열 공간 할당
     strcpy(this->name, name); // this->name에 name 문자열 복사
 }
 
@@ -38,9 +38,11 @@ Person::~Person() {
 }
 
 void Person::changeName(char *name) {
-    if (strlen(name) > strlen(this->name)) {
+    */
+/*if (strlen(name) > strlen(this->name)) {
         return;
-    }
+    }*//*
+
     strcpy(this->name, name);
 }
 
@@ -52,7 +54,7 @@ int main(void) {
     father.show();
     daughter.show();
 
-    daughter.changeName("Grace");
+    daughter.changeName("Graceeeeeeeeee");
     cout << "daughter 이름을 Grace로 변경한 후 ---- " << endl;
     father.show();
     daughter.show();

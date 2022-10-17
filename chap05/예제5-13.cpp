@@ -43,4 +43,5 @@ int main() {
     daughter.show();					// (5) daughter 객체 출력
 
     return 0;								// (6), (7) daughter, father 객체 소멸
-}*/
+}
+*/

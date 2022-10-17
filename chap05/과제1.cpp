@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 
 using namespace std;
@@ -26,3 +27,4 @@ int main(void) {
     readRadius(donut);
     cout << "donut의 면적 = " << donut.getArea() << endl;
 }
+*/
