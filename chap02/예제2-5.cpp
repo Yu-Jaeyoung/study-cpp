@@ -1,3 +1,4 @@
+/*
 //
 // Created by 유재영 on 2022/09/20.
 //
@@ -6,7 +7,7 @@
 #include <cstring>
 using namespace std;
 
-int main_5(void) {
+int main(void) {
 
     char password[11];
 
@@ -24,4 +25,4 @@ int main_5(void) {
         }
     }
 
-}
+}*/

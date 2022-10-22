@@ -1,10 +1,11 @@
+/*
 //
 // Created by 유재영 on 2022/09/20.
 //
 #include <iostream>
 using namespace std;
 
-int main_3(void) {
+int main(void) {
     cout << "A >> ";
     int width;
     cin >> width;
@@ -15,4 +16,4 @@ int main_3(void) {
 
     int area = width * height;
     cout << "C " << area << endl;
-}
+}*/

@@ -1,3 +1,4 @@
+/*
 //
 // Created by 유재영 on 2022/09/20.
 //
@@ -5,7 +6,7 @@
 #include <string>
 using namespace std;
 
-int main_7(void) {
+int main(void) {
     string song("Falling in love with you");
     string elvis("Elvis Presley");
     string singer;
@@ -18,4 +19,4 @@ int main_7(void) {
         cout << "!";
     else
         cout << ". " + elvis + "." << endl;
-}
+}*/
