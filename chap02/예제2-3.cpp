@@ -1,19 +1,32 @@
 /*
-//
-// Created by 유재영 on 2022/09/20.
-//
 #include <iostream>
+
 using namespace std;
 
 int main(void) {
-    cout << "A >> ";
+    cout << "너비를 입력하시오. ";
     int width;
     cin >> width;
 
-    cout << "B >> ";
+    cout << "높이를 입력하시오. ";
     int height;
     cin >> height;
 
     int area = width * height;
-    cout << "C " << area << endl;
-}*/
+    cout << "면적은 " << area << '\n';
+}
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main(void) {
+    int weight, height;
+    cout << "넓이와 높이를 입력하시오. ";
+    cin >> weight >> height;
+    int area = weight * height;
+    cout << "면적은 " << area;
+}
+*/

@@ -1,16 +1,12 @@
 /*
-//
-// Created by 유재영 on 2022/09/20.
-//
-
-
 #include <iostream>
 using namespace std;
 
 int main(void) {
-    cout << "A >> ";
+    cout << "이름을 입력하시오. >> ";
     char name[11];
     cin >> name;
 
-    cout << "B " << name << "B.\n";
-}*/
+    cout << "이름은 " << name << "입니다.\n";
+}
+*/

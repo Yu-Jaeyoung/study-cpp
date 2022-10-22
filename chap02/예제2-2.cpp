@@ -1,8 +1,4 @@
 /*
-//
-// Created by 유재영 on 2022/09/20.
-//
-
 #include <iostream>
 
 double area(int r);
@@ -15,5 +11,6 @@ int main(void) {
     char c = '#';
     std::cout << c << 5.5 << '-' << "hello" << true << std::endl;
     std::cout << "n + 5 = " << n + 5 << "\n";
-    std::cout << "������ " << area(n);
-}*/
+    std::cout << "면적은 " << area(n);
+}
+*/

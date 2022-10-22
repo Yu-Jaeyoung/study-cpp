@@ -1,7 +1,4 @@
 /*
-//
-// Created by 유재영 on 2022/09/20.
-//
 #include <iostream>
 #include <string>
 using namespace std;
@@ -11,12 +8,13 @@ int main(void) {
     string elvis("Elvis Presley");
     string singer;
 
-    cout << song + "A";
-    cout << "V" << elvis[0] << ")?;" << endl;
+    cout << song + "를 부른 가수는?";
+    cout << " (힌트 : 첫글자는 " << elvis[0] << ") : ";
 
     getline(cin, singer);
     if (singer == elvis)
-        cout << "!";
+        cout << "맞았습니다!";
     else
-        cout << ". " + elvis + "." << endl;
-}*/
+        cout << "틀렸습니다. " + elvis + "입니다." << endl;
+}
+*/
