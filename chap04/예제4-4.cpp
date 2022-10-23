@@ -1,40 +1,40 @@
+/*
 #include <iostream>
 
 using namespace std;
 
-class Circle3 {
+class Circle {
 public:
     int radius;
 
-    Circle3();
+    Circle();
 
-    Circle3(int r);
+    Circle(int r);
 
-    ~Circle3(); // 소멸자
+    ~Circle(); // 소멸자
     double getArea();
 };
 
-Circle3::Circle3() {
+Circle::Circle() {
     radius = 1;
     cout << "반지름 " << radius << " 원 생성" << endl;
 }
 
-Circle3::Circle3(int r) {
+Circle::Circle(int r) {
     radius = r;
     cout << "반지름 " << radius << " 원 생성" << endl;
 };
 
-Circle3::~Circle3() {
+Circle::~Circle() {
     cout << "반지름 " << radius << " 원 소멸" << endl;
 }
 
-double Circle3::getArea() {
+double Circle::getArea() {
     return 3.14 * radius * radius;
 }
 
-int main_4(void) {
-    Circle3 donut;
-    Circle3 pizza(30);
-
-    return 0; // return 문이 없어도 소멸자 실행 ??
+int main(void) {
+    Circle donut;
+    Circle pizza(30);
 }
+*/

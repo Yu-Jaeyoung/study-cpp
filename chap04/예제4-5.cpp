@@ -1,44 +1,50 @@
+/*
 #include <iostream>
+
 using namespace std;
 
-class Circle4 {
+class Circle {
 public:
     int radius;
-    Circle4();
-    Circle4(int r);
-    ~Circle4();
+
+    Circle();
+
+    Circle(int r);
+
+    ~Circle();
+
     double getArea();
 };
 
-Circle4::Circle4( ) {
+Circle::Circle() {
     radius = 1;
     cout << "반지름 " << radius << " 원 생성" << endl;
 }
 
-Circle4::Circle4(int r) {
+Circle::Circle(int r) {
     radius = r;
     cout << "반지름 " << radius << " 원 생성" << endl;
 }
 
-Circle4::~Circle4() {
+Circle::~Circle() {
     cout << "반지름 " << radius << " 원 소멸" << endl;
 }
 
-double Circle4::getArea() {
+double Circle::getArea() {
     return 3.14 * radius * radius;
 }
 
-//Circle4 globalDonut(1000);
-//Circle4 globalPizza(2000);
+Circle globalDonut(1000);
+Circle globalPizza(2000);
 
 void f() {
-    Circle4 fDonut(100);
-    Circle4 fPizza(200);
+    Circle fDonut(100);
+    Circle fPizza(200);
 }
 
-int main_5(void)
-{
-    Circle4 mainDonut;
-    Circle4 mainPizza(30);
+int main(void) {
+    Circle mainDonut;
+    Circle mainPizza(30);
     f();
 }
+*/

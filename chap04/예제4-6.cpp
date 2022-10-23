@@ -1,20 +1,16 @@
+/*
 #include <iostream>
-
 using namespace std;
 
 class PrivateAccessError {
 private:
     int a;
-
     void f();
-
     PrivateAccessError();
 
 public:
     int b;
-
     PrivateAccessError(int x);
-
     void g();
 };
 
@@ -26,7 +22,6 @@ PrivateAccessError::PrivateAccessError() {
 PrivateAccessError::PrivateAccessError(int x) {
     a = x;
     b = x;
-
 }
 
 void PrivateAccessError::f() {
@@ -39,7 +34,7 @@ void PrivateAccessError::g() {
     b = 6;
 }
 
-int main_6(void) {
+int main(void) {
     // PrivateAccessError objA;
     PrivateAccessError objB(100);
     // objB.a = 10;
@@ -47,3 +42,4 @@ int main_6(void) {
     // objB.f();
     objB.g();
 }
+*/

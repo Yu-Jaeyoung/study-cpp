@@ -1,26 +1,28 @@
+/*
 #include <iostream>
 
 using namespace std;
 
-class Circle1 {
+class Circle {
 public:
     int radius;
 
     double getArea();
 };
 
-double Circle1::getArea() {
+double Circle::getArea() {
     return 3.14 * radius * radius;
 }
 
-int main_1(void) {
-    Circle1 donut;
+int main(void) {
+    Circle donut;
     donut.radius = 1;
     double area = donut.getArea();
     cout << "donut 면적은 " << area << endl;
 
-    Circle1 pizza;
+    Circle pizza;
     pizza.radius = 30;
     area = pizza.getArea();
     cout << "pizza 면적은 " << area << endl;
 }
+*/

@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 
 using namespace std;
@@ -35,7 +36,7 @@ bool Rectangle::isSquare() {
     return (width == height);
 }
 
-int main_9() {
+int main() {
     Rectangle rect1;
     Rectangle rect2(3, 5);
     Rectangle rect3(3);
@@ -47,3 +48,4 @@ int main_9() {
     if (rect3.isSquare())
         cout << "rect3은 정사각형이다." << endl;
 }
+*/

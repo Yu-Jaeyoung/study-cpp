@@ -1,7 +1,8 @@
+/*
 #include "Calculator.h"
 
-int main_8(void)
+int main(void)
 {
     Calculator calc;
     calc.run();
-}
+}*/
