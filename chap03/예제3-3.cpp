@@ -1,8 +1,9 @@
+/*
 #include <iostream>
 
 using namespace std;
 
-int main_3(void) {
+int main(void) {
     int a = 1;
     switch (a) {
         case 1 :
@@ -12,8 +13,9 @@ int main_3(void) {
             break;
         case 3:
             cout << 3 << endl;
+            break;
         default :
             cout << 999 << endl;
     }
     cout << "end!" << endl;
-}
+}*/

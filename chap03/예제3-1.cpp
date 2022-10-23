@@ -1,8 +1,9 @@
+/*
 #include <iostream>
 
 using namespace std;
 
-int main_1(void) {
+int main(void) {
     int kor = 85, eng = 95, math = 100;
     float ave = 0.0;
     ave = (kor + eng + math) / 3;
@@ -19,4 +20,4 @@ int main_1(void) {
     } else {
         cout << " kor 가 ave 보다 작습니다.";
     }
-}
+}*/

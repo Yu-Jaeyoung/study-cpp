@@ -1,8 +1,9 @@
+/*
 #include <iostream>
 
 using namespace std;
 
-int main_7(void) {
+int main(void) {
     char ch;
     cout << " 1. 콩나물\n";
     cout << " 2. 콩자반\n";
@@ -24,4 +25,4 @@ int main_7(void) {
                 cout << "잘못 선택하셨습니다.\n";
         }
     } while (ch);
-}
+}*/

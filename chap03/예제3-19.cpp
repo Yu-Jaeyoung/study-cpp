@@ -1,8 +1,9 @@
+/*
 #include <iostream>
 
 using namespace std;
 
-int main_19(void) {
+int main(void) {
     char s[80], *p;
     int len = 0;
 
@@ -15,4 +16,4 @@ int main_19(void) {
         p++;
     }
     cout << "문자열의 길이 : " << s << " = " << len << endl;
-}
+}*/

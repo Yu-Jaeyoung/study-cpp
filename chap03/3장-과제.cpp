@@ -1,4 +1,4 @@
-
+/*
 #include <iostream>
 
 using namespace std;
@@ -29,3 +29,4 @@ int main(void) {
     cout << " 전체 총점 : " << sum << endl;
     cout << " 평균 점수 : " << avg << endl;
 }
+*/

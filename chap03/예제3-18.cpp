@@ -1,8 +1,9 @@
+/*
 #include <iostream>
 
 using namespace std;
 
-int main_18(void) {
+int main(void) {
     int *iptr, iary[6] = {1, 2, 3, 4, 5, 6};
     float *fptr, fary[2][3] = {1.1, 2.2, 3.3, 4.4, 5.5, 6.6};
     iptr = iary;
@@ -16,4 +17,4 @@ int main_18(void) {
             cout << *(fptr + 3 * m + n) << " , " << fary[m][n] << endl;
         }
     }
-}
+}*/
