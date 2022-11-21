@@ -1,5 +1,3 @@
-//#include <iostream>
-//#include "dice.h"
 #include "type.h"
 #include "points.h"
 
