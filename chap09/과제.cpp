@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <cmath>
 
@@ -65,3 +66,4 @@ int main(void) {
     for (int i = 0; i < 3; i++)
         delete p[i];
 }
+*/
