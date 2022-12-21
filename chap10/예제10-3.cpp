@@ -18,4 +18,5 @@ int main() {
 
     cout << "sum of x[] = " << add(x, 5) << endl;
     cout << "sum of d[] = " << add(d, 6) << endl;
-}*/
+}
+*/
